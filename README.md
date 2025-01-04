@@ -5,7 +5,6 @@
 
 ## WakaTime Coding Stats
 <!-- Embeded Gist -->
-<script src="https://gist.github.com/matchai/6d5f84419863089a167387da62dd7081.js"></script>
 
 Here are some ideas to get you started:
 
