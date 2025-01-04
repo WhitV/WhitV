@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+[ดู Gist ของฉัน](https://gist.github.com/WhitV/c285502f9544debc17bbeec490fe30d5)
 <!--
 **WhitV/WhitV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
