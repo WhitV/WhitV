@@ -1,7 +1,7 @@
 ## 📈 My WakaTime Stats
 
-<!-- WakaReadme Section: waka-stats -->
-<!--END_SECTION:waka-stats-->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ## 🛠️ Technologies Used
 
