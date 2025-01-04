@@ -1,9 +1,9 @@
 name: waka-readme
 on:
-  # for manual workflow trigger
+  # Trigger workflow manually or based on schedule
   workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
+    # Runs daily at midnight UTC
     - cron: "0 0 * * *"
 
 jobs:
@@ -11,32 +11,46 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-        # this action name
-      - uses: athul/waka-readme@master # do NOT replace with anything else
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Update WakaTime Stats
+        uses: athul/waka-readme@master
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # optional if on profile readme
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
-          ### meta
-          API_BASE_URL: https://wakatime.com/api # optional
-          REPOSITORY: WhitV/WhitV # optional
-          ### content
-          SHOW_TITLE: true # optional
-          SECTION_NAME: waka # optional
-          BLOCKS: -> # optional
-          CODE_LANG: rust # optional
-          TIME_RANGE: all_time # optional
-          LANG_COUNT: 10 # optional
-          SHOW_TIME: true # optional
-          SHOW_TOTAL: true # optional
-          SHOW_MASKED_TIME: false # optional
-          STOP_AT_OTHER: true # optional
-          IGNORED_LANGUAGES: YAML JSON TOML # optional
-          ### commit
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
-          TARGET_BRANCH: master # optional
-          TARGET_PATH: README.md # optional
-          COMMITTER_NAME: GitHubActionBot # optional
-          COMMITTER_EMAIL: action-bot@github.com # optional
-          AUTHOR_NAME: WhitV # optional
-          AUTHOR_EMAIL: sam123q12@gmail.com # optional
-          # you can populate email-id with secrets instead
+          ### Authentication
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # GitHub token for committing
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Your WakaTime API Key
+          
+          ### Meta Settings
+          API_BASE_URL: https://wakatime.com/api # Use other services like Wakapi if needed
+          REPOSITORY: WhitV/WhitV # Target repository for the README
+          
+          ### Content Customization
+          SHOW_TITLE: true # Display title on the stats
+          SECTION_NAME: waka-stats # Unique section name for stats
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # Enhanced ASCII art for better visualization
+          CODE_LANG: yaml # Use YAML syntax highlighting for the stats
+          TIME_RANGE: last_7_days # Display stats for the last 7 days
+          LANG_COUNT: 10 # Show stats for the top 10 languages
+          SHOW_TIME: true # Display time spent on each language
+          SHOW_TOTAL: true # Include total coding time
+          SHOW_MASKED_TIME: false # Do not include unclassified languages
+          STOP_AT_OTHER: false # Continue listing languages even after "Other"
+          IGNORED_LANGUAGES: Binary YAML JSON TOML # Exclude irrelevant languages
+
+          ### Dark Theme Customization (Extra)
+          GRAPH_COLOR: dark # Adjust for dark theme if the plugin supports it
+          TEXT_COLOR: light # Ensure legible text for dark backgrounds
+
+          ### Commit Settings
+          COMMIT_MESSAGE: "Update WakaTime metrics with enhanced visualization"
+          TARGET_BRANCH: main # Update stats on the main branch
+          TARGET_PATH: README.md # Update README file
+          COMMITTER_NAME: GitHubActionBot # Committer name for bot
+          COMMITTER_EMAIL: action-bot@github.com # Committer email
+          AUTHOR_NAME: WhitV # Author of the commit
+          AUTHOR_EMAIL: sam123q12@gmail.com # Author's email
+
+          ### Advanced Settings
+          INCLUDE_EXTRA_STATS: true # Include extra WakaTime metrics (if applicable)
+          FORMAT: markdown # Use Markdown for output
