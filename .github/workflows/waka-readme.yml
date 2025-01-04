@@ -1,4 +1,4 @@
-name: Waka-Readme
+name: waka-readme
 on:
   # Trigger workflow manually or based on schedule
   workflow_dispatch:
