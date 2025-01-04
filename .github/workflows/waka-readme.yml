@@ -38,10 +38,6 @@ jobs:
           STOP_AT_OTHER: false # Continue listing languages even after "Other"
           IGNORED_LANGUAGES: Binary YAML JSON TOML # Exclude irrelevant languages
 
-          ### Dark Theme Customization (Extra)
-          GRAPH_COLOR: dark # Adjust for dark theme if the plugin supports it
-          TEXT_COLOR: white # ตั้งค่าสีตัวหนังสือเป็นสีขาวเพื่อให้มองเห็นได้ชัดเจนบนพื้นหลังมืด
-
           ### Commit Settings
           COMMIT_MESSAGE: "Update WakaTime metrics with enhanced visualization"
           TARGET_BRANCH: main # Update stats on the main branch
@@ -50,7 +46,3 @@ jobs:
           COMMITTER_EMAIL: action-bot@github.com # Committer email
           AUTHOR_NAME: WhitV # Author of the commit
           AUTHOR_EMAIL: sam123q12@gmail.com # Author's email
-
-          ### Advanced Settings
-          INCLUDE_EXTRA_STATS: true # Include extra WakaTime metrics (if applicable)
-          FORMAT: markdown # Use Markdown for output
