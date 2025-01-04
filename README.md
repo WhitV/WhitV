@@ -27,4 +27,4 @@ Markdown     1 min           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 ## 📫 Contact
 
-[LinkedIn](https://linkedin.com/in/namchailaksap/) | [Email](mailto:sam123q12@gmail.com)
+[Email](mailto:sam123q12@gmail.com)
