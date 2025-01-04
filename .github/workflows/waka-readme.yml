@@ -30,7 +30,7 @@ jobs:
           SECTION_NAME: waka-stats # Unique section name for stats
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # Enhanced ASCII art for better visualization
           CODE_LANG: yaml # Use YAML syntax highlighting for the stats
-          TIME_RANGE: last_7_days # Display stats for the last 7 days
+          TIME_RANGE: all_time # Display stats 
           LANG_COUNT: 10 # Show stats for the top 10 languages
           SHOW_TIME: true # Display time spent on each language
           SHOW_TOTAL: true # Include total coding time
