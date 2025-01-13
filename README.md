@@ -3,7 +3,7 @@
 <!--START_SECTION:waka-->
 
 ```yaml
-From: 28 September 2022 - To: 11 January 2025
+From: 28 September 2022 - To: 12 January 2025
 
 Total Time: 67 hrs 34 mins
 
