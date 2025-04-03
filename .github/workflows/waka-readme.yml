@@ -3,8 +3,8 @@ on:
   # Trigger workflow manually or based on schedule
   workflow_dispatch:
   schedule:
-    # Runs daily at midnight UTC
-    - cron: "0 0 * * *"
+    # Runs every 7 days (every Monday at midnight UTC)
+    - cron: "17 17 * * 5"
 
 jobs:
   update-readme:
@@ -30,16 +30,18 @@ jobs:
           SECTION_NAME: waka-stats # Unique section name for stats
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # Enhanced ASCII art for better visualization
           CODE_LANG: yaml # Use YAML syntax highlighting for the stats
-          TIME_RANGE: all_time # Display stats 
+          
+          ## Show stats for last 7 days
+          TIME_RANGE: last_7_days # Show stats for the last 7 days
           LANG_COUNT: 10 # Show stats for the top 10 languages
           SHOW_TIME: true # Display time spent on each language
-          SHOW_TOTAL: true # Include total coding time
-          SHOW_MASKED_TIME: false # Do not include unclassified languages
-          STOP_AT_OTHER: false # Continue listing languages even after "Other"
-          IGNORED_LANGUAGES: Binary YAML JSON TOML # Exclude irrelevant languages
+          SHOW_TOTAL: true # Show total coding time in the last 7 days
+          
+          ## Show total all-time stats
+          SHOW_TOTAL_TIME: true # Show total coding time (all time)
 
           ### Commit Settings
-          COMMIT_MESSAGE: "Update WakaTime metrics with enhanced visualization"
+          COMMIT_MESSAGE: "Update WakaTime metrics (Last 7 Days & All Time)"
           TARGET_BRANCH: main # Update stats on the main branch
           TARGET_PATH: README.md # Update README file
           COMMITTER_NAME: GitHubActionBot # Committer name for bot
