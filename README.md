@@ -1,7 +1,7 @@
 Hi there, I'm Namchai Laksap 👋
 <p align="left">
-<a href="https://github.com/[https://github.com/WhitV]">
-<img src="https://github-readme-stats.vercel.app/api?username=[Your-GitHub-Username]&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<a href="https://github.com/WhitV">
+<img src="https://github-readme-stats.vercel.app/api?username=WhitV&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </a>
 </p>
 
@@ -30,5 +30,5 @@ Exploring cloud deployment with Docker and AWS.
 📫 How to reach me
 <p align="left">
 <a href="mailto:namchai.laksap@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-<a href="[www.linkedin.com/in/namchailaksap/]" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="www.linkedin.com/in/namchailaksap/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
