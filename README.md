@@ -1,11 +1,12 @@
 Hi there, I'm Namchai Laksap 👋
+
+I'm a motivated and aspiring Backend Developer with a strong passion for learning new technologies, particularly within the Node.js and TypeScript ecosystem. I'm eager to apply a solid foundation in business computing and problem-solving skills gained from IT support experience to build efficient and scalable web applications.
+
 <p align="left">
 <a href="https://github.com/WhitV">
 <img src="https://github-readme-stats.vercel.app/api?username=WhitV&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </a>
 </p>
-
-I'm a motivated and aspiring Backend Developer with a strong passion for learning new technologies, particularly within the Node.js and TypeScript ecosystem. I'm eager to apply a solid foundation in business computing and problem-solving skills gained from IT support experience to build efficient and scalable web applications.
 
 🌱 I’m currently learning and working on:
 
