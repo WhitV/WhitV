@@ -2,12 +2,6 @@ Hi there, I'm Namchai Laksap 👋
 
 I'm a motivated and aspiring Backend Developer with a strong passion for learning new technologies, particularly within the Node.js and TypeScript ecosystem. I'm eager to apply a solid foundation in business computing and problem-solving skills gained from IT support experience to build efficient and scalable web applications.
 
-<p align="left">
-<a href="https://github.com/WhitV">
-<img src="https://github-readme-stats.vercel.app/api?username=WhitV&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-</a>
-</p>
-
 🌱 I’m currently learning and working on:
 
 Building a Simple Real-time Chat Application to deepen my understanding of WebSockets and backend architecture.
@@ -32,4 +26,10 @@ Exploring cloud deployment with Docker and AWS.
 <p align="left">
 <a href="mailto:namchai.laksap@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="www.linkedin.com/in/namchailaksap/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
+
+<p align="left">
+<a href="https://github.com/WhitV">
+<img src="https://github-readme-stats.vercel.app/api?username=WhitV&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+</a>
 </p>
