@@ -30,5 +30,5 @@ Exploring cloud deployment with Docker and AWS.
 📫 How to reach me
 <p align="left">
 <a href="mailto:namchai.laksap@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-<a href="[Your-LinkedIn-Profile-URL]" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="[www.linkedin.com/in/namchailaksap/]" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
